@@ -15,6 +15,7 @@
 		89D8AF011F2B18B2003310B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D8AEFF1F2B18B2003310B2 /* LaunchScreen.storyboard */; };
 		89D8AF0C1F2B18B2003310B2 /* AudioPlayerProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D8AF0B1F2B18B2003310B2 /* AudioPlayerProjectTests.m */; };
 		89D8AF171F2B18B2003310B2 /* AudioPlayerProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D8AF161F2B18B2003310B2 /* AudioPlayerProjectUITests.m */; };
+		89D8AF261F2B18C2003310B2 /* AudioPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D8AF251F2B18C2003310B2 /* AudioPlayerHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		89D8AF121F2B18B2003310B2 /* AudioPlayerProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D8AF161F2B18B2003310B2 /* AudioPlayerProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerProjectUITests.m; sourceTree = "<group>"; };
 		89D8AF181F2B18B2003310B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D8AF241F2B18C2003310B2 /* AudioPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerHelper.h; sourceTree = "<group>"; };
+		89D8AF251F2B18C2003310B2 /* AudioPlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		89D8AEF01F2B18B2003310B2 /* AudioPlayerProject */ = {
 			isa = PBXGroup;
 			children = (
+				89D8AF241F2B18C2003310B2 /* AudioPlayerHelper.h */,
+				89D8AF251F2B18C2003310B2 /* AudioPlayerHelper.m */,
 				89D8AEF41F2B18B2003310B2 /* AppDelegate.h */,
 				89D8AEF51F2B18B2003310B2 /* AppDelegate.m */,
 				89D8AEF71F2B18B2003310B2 /* ViewController.h */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D8AEF91F2B18B2003310B2 /* ViewController.m in Sources */,
+				89D8AF261F2B18C2003310B2 /* AudioPlayerHelper.m in Sources */,
 				89D8AEF61F2B18B2003310B2 /* AppDelegate.m in Sources */,
 				89D8AEF31F2B18B2003310B2 /* main.m in Sources */,
 			);
